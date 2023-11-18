@@ -3,9 +3,10 @@ project(Huffman C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Huffman source/main.c
-        headers/huffman.h
-        headers/huffman_common.h
-        headers/io.h
-        source/huffman.c
+add_executable(Huffman main.c
+        huffman.h
+        huffman_common.h
+        io.h
+        huffman.c
+        io.c
 )

@@ -5,14 +5,11 @@
 #ifndef HUFFMAN_IO_H
 #define HUFFMAN_IO_H
 #include <stdbool.h>
-#include "..\headers\huffman_common.h"
+#include "huffman_common.h"
 
 void init_in(char text[]);
 void init_out();
 void get_out_buffer(char text[]);
-
-#define GET_BIT(BYTE, POS) //private
-#define PUT_BIT(BYTE, BIT, POS) //private
 
 //Byteweise lesen und schreiben
 bool has_next_char(void);

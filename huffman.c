@@ -1,7 +1,7 @@
 //
 // Created by Tom on 17.11.2023.
 //
-#include "..\headers\huffman.h"
+#include "huffman.h"
 
 void test_rd_chars_wr_bits(char in[], char out[])
 {
