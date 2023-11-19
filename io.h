@@ -18,7 +18,8 @@ void write_char(unsigned char c);
 
 //Bitweise lesen und schreiben
 bool has_next_bit(void);
-enum BIT read_bit(void);
-void write_bit(enum BIT c);
+
+BIT read_bit(void);
+void write_bit(BIT c);
 
 #endif //HUFFMAN_IO_H

@@ -5,10 +5,10 @@
 #ifndef HUFFMAN_HUFFMAN_COMMON_H
 #define HUFFMAN_HUFFMAN_COMMON_H
 
-enum BIT
+typedef enum
 {
-	ZERO = 0,
-	ONE = 1
-};
+	ZERO,
+	ONE
+} BIT;
 
 #endif //HUFFMAN_HUFFMAN_COMMON_H
